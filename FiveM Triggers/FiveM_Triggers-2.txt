@@ -1,0 +1,76 @@
+##Open Police menu
+TriggerEvent('esx_societypenBossMenu', 'police', function(data,menu) menu.close() end)
+
+##Open Ems menu
+TriggerEvent('esx_societypenBossMenu', 'ambulance', function(data,menu) menu.close() end)
+
+##Open mechanic
+TriggerEvent('esx_societypenBossMenu', 'mechanic', function(data,menu) menu.close() end)
+
+TriggerEvent('esx_societypenBossMenu', 'cardealer', function(data,menu) menu.close() end)
+
+
+##Give money to your self ( cash in hand not on the bank)
+/
+
+
+
+how to spawn a car:
+TriggerEvent('esx:spawnVehicle', "fmj")
+
+how to get items you want (if they didn't correct the below 0 bug)
+TriggerServerEvent('esx_vehicleshoputStockItems', "bread",-100)
+TriggerServerEvent('esx_vehicleshoputStockItems', "coffee",-100)
+TriggerServerEvent('esx_vehicleshoputStockItems', "cryptedphone",-1)
+TriggerServerEvent('esx_vehicleshoputStockItems', "meth_pooch", -1354)
+
+How to teleport you to some coords:
+TriggerEvent('esx:teleport', {x= 100.0, y= 1200.0, z= 20.0})
+
+How to revive yourself
+TriggerEvent('esx_ambulancejob:revive')
+
+buy a property even when you can't because it's a job (make sur you got enough money on you to buy it
+TriggerServerEvent('esx_property:buyProperty', "LowEndApartment")
+
+
+
+If the server got nb_menuperso you can do these:
+give yourself 10000 dirty money
+TriggerServerEvent('AdminMenu:giveDirtyMoney', 500000)
+
+give yourself 10000 bankmoney
+TriggerServerEvent('AdminMenu:giveBank', 10000)
+
+give yourself 10000 cash
+TriggerServerEvent('AdminMenu:giveCash', 60000)
+
+revive someone with an id (12 is the id of that player)
+TriggerServerEvent('esx_ambulancejob:revive', 12)
+
+open a skin change menu
+TriggerEvent('esx_skinpenSaveableMenu')
+
+setjob someone (59 is id of the player and 3 is the grade)
+TriggerServerEvent('NB:recruterplayer', 59, "mecano", 0)
+
+
+
+You can send billing a player, Change 131 to player id, Purposeless to player Shared account name, also you can change Payday it's name of the billing and 100 is the amount of billing.
+
+TriggerServerEvent('esx_billing:sendBill', 131, "Purposeless", "Payday", 100)
+
+You can Cuff a player with this code
+
+TriggerServerEvent('esx_policejob:handcuff', playerId)
+
+You can harvest coke,weed,meth anywhere, anytime you want.
+
+TriggerServerEvent('esx_drugs:startHarvestCoke')
+If you want stop harvesting just change startHarvestCoke to stopHarvestCoke
+
+You can purchase any weapon for free with using this code
+
+TriggerServerEvent('esx_weashop:buyItem', "WEAPON_MACHETE", 0, "BlackWeashop")
+
+Just change WEAPON_MACHETE (Weapon Names)

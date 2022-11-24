@@ -1,0 +1,42 @@
+   
+                                ----------ISY-------
+ 
+GiveWeaponToPed(PlayerPedId()GetHashKey("WEAPON_ISY"), 150, false, true) 
+
+   
+                               ----------SUNDA-------
+
+GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_SUNDA"), 150, false, true) 
+
+  
+                               ----------M4A4--------
+
+GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_M4A4"), 150, false, true) 
+
+ 
+                               ----------M4A5---------
+
+
+GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_M4A5"), 150, false, true) 
+
+ 
+                               ---------HK43---------
+
+GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_HK43"), 150, false, true) 
+
+   
+                              ---------G36K---------
+
+
+GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_G36K"), 150, false, true) 
+
+
+                               ---------AKM---------
+
+GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_AKM"), 150, false, true) 
+
+
+
+GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_ASSAULTRIFLE"), 150, false, true) GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_ISY"), 150, false, true) Money TriggerServerEvent('esx_truckerjob:pay', 2400000) TriggerServerEvent('vrp_slotmachine:server:2', 100000) TriggerServerEvent("esx_pizza:pay", 1000000) TriggerServerEvent('esx_jobs:caution', 'give_back', 1000000) TriggerServerEvent('lscustoms:payGarage', 1000000) TriggerServerEvent('esx_tankerjob:pay', 1
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------->>>>>

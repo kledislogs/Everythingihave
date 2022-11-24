@@ -1,0 +1,30 @@
+UNBAN FIVEM
+Install: https://netlimiter.com/
+
+Materials:
+- New Rockstar account (GTA license)
+- New Steam account (Not required)
+
+Step 1 :
+- Windows + R AppData \ Local \ DigitalEntitlements // empty the folder
+- Windows + R temp // Empty the folder.
+- Windows + R% temp% // Empty the folder.
+
+2nd step :
+Open revo uninstaller
+then uninstall everything related to xbox
+
+Step 3:
+- Go to Fivem.APP and delete the LOGS folder
+- Clear the FiveM cache in fivem.app cache and you delete everything except Game-storage and Nui-storage
+- Delete the crashes folder in FIVEM.APP
+
+Step 4:
+- Open Netlimiter
+- Check the fiveM with the FiveM icons (block)
+- You activate Firewall
+- New steam not compulsory
+- You launch FIVEM and connect to your new license
+- You start the first connection (error message)
+- Uncheck the Firewall
+- And log in.
